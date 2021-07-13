@@ -1,0 +1,41 @@
+.supplierTableContainer {
+	display: flex;
+
+	& > .table {
+		margin-left: 10%;
+		margin-right: 10%;
+
+		& > thead {
+			border-left: 1px solid #dee2e6;
+			border-right: 1px solid #dee2e6;
+		}
+	}
+}
+
+.badge-primary {
+	
+	&.badge-pill {
+		padding: 0.6rem;
+	}
+
+	&.Paid {
+		background-color: #3CB371;
+	}
+
+	&.Delivered {
+		background-color: #9370DB;
+	}
+}
+
+.badge-secondary {
+
+	&.first {
+		margin-left: 0.5rem;
+		background-color: #FFBF00;
+	}
+
+	&.market {
+		margin-left: 0.5rem;
+		background-color: #303030;
+	}
+}
